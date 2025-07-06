@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "goatmod",
+	"version": "${version}",
+	"name": "Goatmod",
+	"description": "This is a hack mod created by me.",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/goatmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.kami.godmod.Goatmod"
+		],
+		"fabric-datagen": [
+			"net.kami.godmod.GoatmodDataGenerator"
+		],
+		"client" : [
+			"net.kami.godmod.GoatmodClient"
+		]
+	},
+	"mixins": [
+		"goatmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.7",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
