@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "goatmod",
-	"version": "${version}",
+	"version": "1",
 	"name": "Goatmod",
 	"description": "This is a hack mod created by me.",
 	"authors": [
@@ -9,7 +9,7 @@
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/ishaanluthra/godmod.git"
 	},
 	"license": "MIT",
 	"icon": "assets/goatmod/icon.png",
