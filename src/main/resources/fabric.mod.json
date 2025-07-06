@@ -22,7 +22,8 @@
 			"net.kami.godmod.GoatmodDataGenerator"
 		],
 		"client" : [
-			"net.kami.godmod.GoatmodClient"
+			"net.kami.godmod.GoatmodClient",
+			"net.kami.godmod.boatfly"
 		]
 	},
 	"mixins": [
